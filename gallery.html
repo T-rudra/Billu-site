@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>World Explorer Travel — Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="gallery">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">World Explorer Travel</a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="destinations.html">Destinations</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Travel Gallery</h1>
+      <p class="lead">A selection of photos from our most-loved destinations.</p>
+    </section>
+
+    <section class="gallery-section boxed">
+      <figure class="gallery-figure">
+        <img id="gallery-main-img" src="" alt="Travel photo" />
+        <figcaption id="gallery-caption"></figcaption>
+      </figure>
+
+      <div class="gallery-controls">
+        <button id="prev-btn" class="btn btn-ghost" aria-label="Previous image">&lt;</button>
+        <div id="gallery-indicator" class="indicator">Image 1 of 6</div>
+        <button id="next-btn" class="btn btn-ghost" aria-label="Next image">&gt;</button>
+      </div>
+
+      <!-- Optional: small caption list or thumbnails could be placed here -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 World Explorer Travel. All rights reserved.</p>
+      <p class="social">Instagram | Facebook | Twitter</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
